@@ -1,0 +1,41 @@
+nav{
+  width: auto;
+  background-color: antiquewhite;
+
+  margin: 0;
+  
+}
+
+ul{
+  margin:0px;
+  padding: 0px;
+}
+
+a{
+  width: auto;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+header{
+  box-sizing: border-box;
+  height: 70px;
+  display: flex;
+  margin-top: 1rem;
+  padding: 1rem;
+ 
+  justify-content:space-between;
+  background-color: silver;
+}
+
+#menu{
+  display: flex;
+  list-style: none;
+  gap:1rem; /*Pada itens de display flex*/
+  align-items: center;
+}

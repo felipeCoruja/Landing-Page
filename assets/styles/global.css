@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@300&display=swap');
+
+
+*{/*fazendo o reset das configurações iniciais do browser*/
+    margin:0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    --marrom:#AB8A3C;;
+    --marrom-claro:#c09b44;
+    --sinza:#EFF1F2;
+    --black:black;
+    --botao-black-active:rgb(27, 27, 27);
+    --botao-white-active:rgb(250, 250, 250);
+    --white:white;
+    --font-titulo: 'Montserrat', sans-serif;
+    --font-description: 'Roboto', sans-serif;
+    font-size: 62.5%;/*Mudando o padrao da font size de 100% o que corresponde a 16px para 62.5% que corresponde a 10px, assim fica mais fácil converter as medidas de px para rem, ex: no modelo do projeto pede tamanho 58px fica 5.8rem*/
+}
+
+body{
+    height: 100vh;
+    min-width: 375px;
+}
+body,button,input,textarea{
+    font-size: clamp(14px,1.6rem, 2vw);/*Define os valores (minino,padrao,maximo) para a fonte */
+    /*font-family: "poppins", sans-serif;*/
+    font-family: "open-sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: background 0.3s;
+}
