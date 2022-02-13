@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper', {
       speed: 1000,
       loopFillGroupWithBlank:true,
       loop: true,
-      slidesOffsetBefore: -60,
+    //   slidesOffsetBefore: -60,
       
       navigation: {
           nextEl: '.swiper-button-next',
@@ -18,7 +18,7 @@ const swiper = new Swiper('.swiper', {
           
           300: {
               slidesPerView: 1,
-              spaceBetween: 20
+              spaceBetween: 30
           },
           // when window width is >= 480px
           525: {
@@ -32,7 +32,7 @@ const swiper = new Swiper('.swiper', {
           },
           1000:{
               slidesPerView: 4,
-              spaceBetween: 30
+              spaceBetween: 45
           }
         }
   

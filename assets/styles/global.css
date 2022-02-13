@@ -11,7 +11,7 @@
 html{
     --marrom:#AB8A3C;;
     --marrom-claro:#c09b44;
-    --sinza:#EFF1F2;
+    --cinza:#EFF1F2;
     --black:black;
     --botao-black-active:rgb(27, 27, 27);
     --botao-white-active:rgb(250, 250, 250);
@@ -27,8 +27,8 @@ body{
 }
 body,button,input,textarea{
     font-size: clamp(14px,1.6rem, 2vw);/*Define os valores (minino,padrao,maximo) para a fonte */
-    /*font-family: "poppins", sans-serif;*/
-    font-family: "open-sans", sans-serif;
+    
+    font-family: var(--font-description);
 }
 
 a{

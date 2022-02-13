@@ -9,3 +9,15 @@ function changeMenu(event){
     nav.classList.toggle('mobile-active');
     console.log('Clicou');
 }
+
+const linkHome = document.getElementById('linkHome')
+const linkSobre = document.getElementById('linkSobre')
+const linkDiferenciais = document.getElementById('linkDiferenciais')
+const linkFaleConosco = document.getElementById('menu-fale-conosco')
+
+linkHome.addEventListener('click', changeMenu);
+linkSobre.addEventListener('click', changeMenu)
+linkDiferenciais.addEventListener('click', changeMenu)
+linkFaleConosco.addEventListener('click', changeMenu)
+
+
